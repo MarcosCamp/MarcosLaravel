@@ -13,7 +13,9 @@ return new class extends Migration
     {
         Schema::create('skins', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->string('nombre');  // Nombre del skin
+            $table->foreignId('personaje_id')->constrained()->onDelete('cascade'); // Relación con el personaje
+            $table->timestamps(); // Fechas de creación y actualización
         });
     }
 
