@@ -13,7 +13,7 @@ class PersonajeSeeder extends Seeder
         Personaje::create([
             'nombre' => 'Shelly',
             'tipo' => 'rango',
-            'categoria' => 'Tropical',
+            'categoria' => 'Especial',
             'vida' => 3000,
             'hipercarga' => true,
         ]);
@@ -21,7 +21,7 @@ class PersonajeSeeder extends Seeder
         Personaje::create([
             'nombre' => 'Colt',
             'tipo' => 'rango',
-            'categoria' => 'Vaquero',
+            'categoria' => 'Especial',
             'vida' => 3200,
             'hipercarga' => false,
         ]);
