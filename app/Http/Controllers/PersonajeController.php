@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Personaje;
+use App\Models\Skin;
 use Illuminate\Http\Request;
 
 class PersonajeController extends Controller
